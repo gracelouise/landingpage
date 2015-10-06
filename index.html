@@ -10,6 +10,7 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300,300italic' rel='stylesheet' type='text/css'>
 
 	</head>
 	<body>
@@ -17,39 +18,46 @@
 			<header>
 				<h1>Relaxr</h1>
 				<h2>Get piece of mind with a single tap</h2>
-				<button>Get it Now</button>
+				<button class=button id="getit">Get it Now</button>
 			</header>
 
 			<div id="info">
 				<h3>Benefits</h3>
 
-				<p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
+				<div id='list'>
+					<p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
 
-				<ul>
-					<li>Schedule meetings for you</li>
+					<ul>
+						<li>Schedule meetings for you</li>
 
-					<li>Excel automation to complete your work for you</li>
+						<li>Excel automation to complete your work for you</li>
 
-					<li>Responds to emails on your behalf</li>
+						<li>Responds to emails on your behalf</li>
 
-					<li>Does all your work for you with our revolutionary AI technology</li>
-				</ul>
-			</div>
-
-			<blockquote>
-				“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”
-			</blockquote>
-
-			<p id="citation">
-				Amanda, Intuit
-			</p>
-
+						<li>Does all your work for you with our revolutionary AI technology</li>
+					</ul>
+				</div>
+			
 			</div><!-- #info -->
 
+			<div id='quote'>
+				<blockquote>
+					“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”
+				</blockquote>
+
+				<p id="citation">
+					- Amanda, Intuit
+				</p>
+			</div>
+			
+
 			<footer>
-				<button id="signup">
-					Sign Up Now!
-				</button>
+				<div id='banner'>
+					<button class=button id="signup">
+						Sign Up Now!
+					</button>
+				</div>
+
 				<p id="logo">
 					Relaxr
 				</p>
